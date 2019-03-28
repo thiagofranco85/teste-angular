@@ -23,13 +23,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/css/one-page-wonder.min.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true
           },
           "configurations": {
-            "production": {
+            "production": { 
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
